@@ -1,0 +1,74 @@
+.bestellungContainer{
+    display: grid;
+    grid-template-rows: 50px auto auto;
+    width: 80%;
+    margin: 10px auto;
+    border-style: solid;
+    border-color: #011627;
+    
+
+}
+.bestellungHeader{
+    background-color: #011627;
+}
+
+.bestellungHeader h2{
+    color: #fdfffc;
+    padding: 10px 0 0 10px;
+}
+
+.bestellungItemContainer{
+    display: flex;
+}
+
+.bestellungItem{  
+    padding: 10px 
+}
+
+.bestellungItem img{
+    height: 100px;
+    margin: 0 auto 0 auto;
+}
+
+button{
+    display: block;
+    margin: 5px auto;
+    border: none;
+    width: 30%;
+    background-color: #e71d36;
+    color: #fdfffc;
+}
+
+button span{
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 700;
+    margin: auto;
+}
+
+#aktualisieren{
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bestellungsAdresse{
+    margin: 0 0 0 auto;
+    padding: 0 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 913px){
+    .bestellungItemContainer{
+        display: block;
+        text-align: center;
+    }
+
+    button{
+        display: block;
+        width:50%;
+        margin: 5px auto 5px auto;
+    }
+}

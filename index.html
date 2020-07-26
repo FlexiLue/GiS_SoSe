@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="Scripts/bestellung.js" defer></script>
+    <script src="Scripts/product.js" defer></script>
+    <script src="./Scripts/scrip.js" defer></script>
+    <title>EisShop</title>
+</head>
+<body>
+    <div id=header>
+        <h1>EisShop</h1>
+    </div>
+
+    <div id="main"> 
+    <h2 class=heading>Behälter</h2>
+        <div class="container" id="behaelter">
+            
+        </div>
+    <h2 class="heading">Kugeln</h2>
+        <div class="container" id="eis">
+            
+        </div>
+    <h2 class=heading>Topings</h2>
+        <div class="container" id="topping">
+            
+        </div>
+    </div>
+    <div id="sidebar">
+        <div id="bestellung">
+            <h2>Ihre Bestellung</h2>
+            <div id="bestellungTopping"></div>
+            <div id="bestellungEis"></div>
+            <div id="bestellungBehälter"></div>
+        </div>
+        <div>
+            <p>Preis:</p>
+            <p id="price">0,00€</p>
+        </div>
+        <div>
+            <form method="GET" action="localhost/8100">
+                <input name="name">Name</imput>
+                <input name="straße">Straße</input>
+                <input name="stadt">Stadt</input>
+                <button href="" id="abschicken" type="button">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

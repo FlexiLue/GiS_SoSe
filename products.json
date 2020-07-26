@@ -1,0 +1,51 @@
+[
+   {
+      "index": 0,
+      "name": "Waffel",
+      "categorie": "behälter",
+      "image": "./Material/waffel.png",
+      "price": 0
+   },
+   {
+      "index": 1,
+      "name": "Becher",
+      "categorie": "behälter",
+      "image": "./Material/eisbecher.png",
+      "price": 0
+   },
+   {
+      "index": 2,
+      "name": "Schokolade",
+      "categorie": "eis",
+      "image": "./Material/Schokolade.png",
+      "price": 1
+   },
+   {
+      "index": 3,
+      "name": "Stracciatella",
+      "categorie": "eis",
+      "image": "./Material/Stracciatella.png",
+      "price": 1
+   },
+   {
+      "index": 4,
+      "name": "Buttermilch Beere",
+      "categorie": "eis",
+      "image": "./Material/Buttermilch_Johannesbaere.png",
+      "price": 1
+   },
+   {
+      "index": 5,
+      "name": "Schoko Streusel",
+      "categorie": "topping",
+      "image": "./Material/SchokoStreusel.png",
+      "price": 0.5
+   },
+   {
+      "index": 6,
+      "name": "Kirsche",
+      "categorie": "topping",
+      "image": "./Material/kirschen.png",
+      "price": 0.5
+   }
+]

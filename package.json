@@ -1,0 +1,21 @@
+{
+  "name": "gis_sose_endagabe",
+  "version": "1.0.0",
+  "description": "GiS Endabgabe",
+  "main": "index.js",
+  "dependencies": {
+    "@types/mongodb": "^3.5.25",
+    "@types/node": "^14.0.25",
+    "mongodb": "^3.5.9",
+    "node": "^14.5.0",
+    "nodemon": "^2.0.4",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./Scripts/server.js"
+  },
+  "author": "Felix Lütte",
+  "license": "ISC"
+}
