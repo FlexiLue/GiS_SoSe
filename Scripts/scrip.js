@@ -8,7 +8,7 @@ var Endabgabe;
     async function init() {
         let abschicken = document.querySelector("form button");
         abschicken.addEventListener("click", Endabgabe.handleBestellung);
-        await Endabgabe.getProductsJson("../products.json");
+        await Endabgabe.getProductsJson("https://flexilue.github.io/GiS_SoSe/products.json");
         generateProductList();
         localStorage.clear();
         // updateBestellung();

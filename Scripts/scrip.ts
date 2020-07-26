@@ -13,7 +13,7 @@ namespace Endabgabe {
         let abschicken: HTMLButtonElement = <HTMLButtonElement> document.querySelector("form button");
         abschicken.addEventListener("click", handleBestellung);
 
-        await getProductsJson("../products.json");
+        await getProductsJson("https://flexilue.github.io/GiS_SoSe/products.json");
         generateProductList();
         localStorage.clear();
 

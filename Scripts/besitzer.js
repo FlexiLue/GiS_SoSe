@@ -4,10 +4,10 @@ var Endabgabe;
     async function init() {
         let response = await fetch("http://localhost:8100/getBestellungen");
         let responseText = await response.text();
-        await Endabgabe.getProductsJson("../products.json");
+        await Endabgabe.getProductsJson("https://flexilue.github.io/GiS_SoSe/products.json");
         let bestellungen = JSON.parse(responseText);
         console.log(bestellungen);
-        await Endabgabe.getProductsJson("../products.json");
+        await Endabgabe.getProductsJson("https://flexilue.github.io/GiS_SoSe/products.json");
         aktualiseren();
     }
     init();

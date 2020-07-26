@@ -20,11 +20,11 @@ namespace Endabgabe {
     async function init(): Promise<void> {
         let response: Response = await fetch("http://localhost:8100/getBestellungen");
         let responseText: string = await response.text();
-        await getProductsJson("../products.json");
+        await getProductsJson("https://flexilue.github.io/GiS_SoSe/products.json");
 
         let bestellungen: Bestellung[] = JSON.parse(responseText);
         console.log(bestellungen);
-        await getProductsJson("../products.json");
+        await getProductsJson("https://flexilue.github.io/GiS_SoSe/products.json");
         aktualiseren();
     }
 
